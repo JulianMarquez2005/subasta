@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px; /* Ajusta el espacio entre los elementos según sea necesario */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Cambia el color del texto según tu diseño */
+  padding: 5px 10px;
+  border: 1px solid #ccc; /* Añade un borde alrededor de los enlaces */
+  border-radius: 5px; /* Añade esquinas redondeadas */
+}
+
+nav a:hover {
+  background-color: #eee; /* Cambia el color de fondo cuando se pasa el ratón */
+}
+
+a{
+  float: left;
+}

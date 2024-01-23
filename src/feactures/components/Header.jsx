@@ -9,7 +9,7 @@ const Header =() => {
                     <img src='/public/images.png' className="logo"  />
                   </a>
                 </div>
-                </header>
+               
                 
                 <nav>
                   <ul>
@@ -20,6 +20,7 @@ const Header =() => {
                     <li><a href="#">Políticas</a></li>
                   </ul>
                 </nav>
+                </header>
             </>
     );
 }

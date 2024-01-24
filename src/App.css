@@ -36,30 +36,32 @@ nav a {
   text-decoration: none;
   color: #333; /* Cambia el color del texto según tu diseño */
   padding: 5px 10px;
-  border: 1px solid #ccc; /* Añade un borde alrededor de los enlaces */
-  border-radius: 5px; /* Añade esquinas redondeadas */
+  font-weight: 900;
+  
 }
 
 nav a:hover {
   background-color: #eee; /* Cambia el color de fondo cuando se pasa el ratón */
 }
 
-a{
-  float: left;
-}
+
 
 Header {
+  
   background: #fff;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 14%;
+  height: 20%;
   z-index: 999px;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: row;
   align-items: center;
+  
+  
+  
 
 }
 
@@ -67,3 +69,39 @@ Header {
   padding-left: 15%;
   
 }
+
+.logo{
+  filter: saturate(180%);
+}
+
+.card1 {
+  margin-top: 15%;
+  width: 25%;
+  height: 30%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 2ch; 
+  border-top-right-radius: 2ch; 
+
+}
+
+.image-container img {
+  width: 27%;
+  height: auto;
+}
+
+
+.texto-1 {
+  
+  text-align: center;
+  background-color: rgb(0, 161, 155);
+  width: 27%;
+  height: auto;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 10px; 
+
+ 
+}
+

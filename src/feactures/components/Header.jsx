@@ -2,16 +2,15 @@ import React from 'react'
 
 const Header =() => {
         return (
-            <>
-               <header id="root">
+               <header className="header">
                 <div className="logo-container">
-                  <a  target="_blank">
+                  <a  className="img" target="_blank">
                     <img src='/public/images.png' className="logo"  />
                   </a>
                 </div>
                
                 
-                <nav>
+                <nav className="menuHeader">
                   <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Vehículos</a></li>
@@ -21,7 +20,6 @@ const Header =() => {
                   </ul>
                 </nav>
                 </header>
-            </>
     );
 }
 

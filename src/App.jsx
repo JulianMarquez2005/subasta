@@ -10,19 +10,23 @@ import FiltroBusqueda from './feactures/components/FiltroBusqueda'
 const App = () => {
   const [count, setCount] = useState(0)
 
+ 
+
   return (
     <>
     <div>
       <Header />
     </div>
-    <div>
-      <FiltroBusqueda/>
-    </div>
-      <article>
-        <Layout>
-          <Card />
-        </Layout>
-      </article>
+      <Layout>
+        <div>
+         
+              <Card />
+              
+  
+        </div>
+
+      </Layout>
+
 
       <footer>
         <p>&copy; 2024 Tu Página Dinámica. Todos los derechos reservados.</p>

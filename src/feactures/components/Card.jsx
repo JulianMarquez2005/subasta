@@ -2,6 +2,7 @@ import React from 'react';
 
 
 const Card = () => {
+
   return (
     <section className=''>
       <article>
@@ -13,7 +14,7 @@ const Card = () => {
         <div className='texto-1'>
           <figure className='' >
             <ul>
-            <a href="#" className='text-white'>360° WalkAround</a>   
+              <a href="#" className='text-white'>360° WalkAround</a>
             </ul>
           </figure>
         </div>
@@ -22,8 +23,8 @@ const Card = () => {
         <div className='p-4 flex justify-between'>
           <div>
             <div className='flex flex-wrap gap-1 text-lg font-semibold md:text-xl'>
-              <h2 className='capitalize'>Kia rio</h2>
-            
+              <h2 className='capitalize'>Kia</h2>
+
             </div>
             <span className='block text-gray-800 text-md md:text-lg mt-2'>
               2015|63.505 Km

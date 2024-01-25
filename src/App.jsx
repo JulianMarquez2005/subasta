@@ -5,13 +5,19 @@ import Header from './feactures/components/Header'
 import Card from './feactures/components/Card'
 import { Layout } from './feactures/components/Layout'
 import './App.css'
+import FiltroBusqueda from './feactures/components/FiltroBusqueda'
 
 const App = () => {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <div>
       <Header />
+    </div>
+    <div>
+      <FiltroBusqueda/>
+    </div>
       <article>
         <Layout>
           <Card />

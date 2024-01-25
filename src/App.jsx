@@ -17,16 +17,14 @@ const App = () => {
     <div>
       <Header />
     </div>
+    <div>
+        <FiltroBusqueda/>
+    </div>
       <Layout>
         <div>
-         
               <Card />
-              
-  
         </div>
-
       </Layout>
-
 
       <footer>
         <p>&copy; 2024 Tu Página Dinámica. Todos los derechos reservados.</p>

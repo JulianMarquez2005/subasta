@@ -1,25 +1,34 @@
-import React, {useState} from 'react;'
-import './app.css';
-import Dropdown from tailwind;
+import { useState } from 'react'
+import React from 'react';
 
 
-function Menudropdown() {
-    const [isOpen, setIsopen] = (useState)
+// const CardMenu = ()  => {
+//     return(
+
+const Menudropdown = () => {
+    const [open, setOpen] =useState(false);
+    const Menus = ['ford', 'mercedez', 'kia', 'chevrolet']
+
     return(
-        <div>
-            <button  
-            onClick={() => setIsopen((prev) => !prev)}  
-            className='class="p-3 w-full flex justify-between items-center gap-2 bg-white bg-gradient-to-br from-transparent via-tertiary-100/10 to-tertiary-100/50 text-lg'>
-                marca
-                {!isopen ? (
-                    <Down className="h-8"/>
-                ) : ( 
-                    
-                    <Up className="h-8"/>
-                    )}
-            </button>
-        </div>  
-    );
-} 
+        <>
+            <button  className='bg-red-600' 
+            onClick={() => setOpen(!open)}
+            >Marca</button>
+            <div >
+                {
+                    open && 
+                    <ul>
+                    {
+                        Menus.map((menu) => (
+                            <li className='p-2 text-lg cursor-pointer rounded hover:bg-orange-200' key={menu}>{menu}</li>
+                        ))
+                    }
+                </ul>
+                }
+            </div>
+                
+        </>
+    );  
+}
 
 export default Menudropdown;

@@ -1,12 +1,15 @@
 import React from 'react';
+import Menudropdown from './Menudropdown';
 
+
+// estilo del clase div que contiene el Menudropdown //flex justify-evenly items-center
 
 const CardMenu = ()  => {
     return(
-        <div className="bg-slate-50 rounded-xl shadow-lg flex justify-evenly items-center overflow-x-auto h-34 p-3 w-full flex justify-between items-center gap-2 text-lg">
-        
-            <div>
-                <button className='p-5'>Marca</button>
+        <div className=" mt-12 h-20 bg-slate-50 rounded-xl shadow-lg overflow-x-auto h-34 p-3 w-full flex justify-between items-center gap-2 text-lg">
+                 
+            <div  className='bg-white p-4 w-28 shadow-lg  absolute'>
+                <Menudropdown/> 
             </div>
             <span>|</span>
             <div>
@@ -27,7 +30,7 @@ const CardMenu = ()  => {
             <span>|</span>
             <div>
                 <button>Caracteristicas</button>
-            </div>
+            </div> 
         </div>
     );
 

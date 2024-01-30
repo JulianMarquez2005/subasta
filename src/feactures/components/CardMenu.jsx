@@ -6,11 +6,11 @@ import Menudropdown from './Menudropdown';
 
 const CardMenu = ()  => {
     return(
-        <div className=" mt-12 h-20 bg-slate-50 rounded-xl shadow-lg overflow-x-auto h-34 p-3 w-full flex justify-between items-center gap-2 text-lg">
-                 
-            <div  className='bg-white p-4 w-28 shadow-lg  absolute'>
-                <Menudropdown/> 
+        <div className="  mb-8 mt-12 h-20 bg-orange-500 rounded-xl shadow-lg overflow-x-auto  p-3 flex   items- gap-2 text-lg ">       
+            <div  className=' absolute  z-10 bg-white'>
+                <Menudropdown/>
             </div>
+            
             <span>|</span>
             <div>
                 <button>Año</button>

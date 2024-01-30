@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { useState } from "react";
-import Header from "./feactures/components/Header";
-import Card from "./feactures/components/Card";
-import { Layout } from "./feactures/components/Layout";
+import Header from "./feactures/common/components/header/Header";
+import Card from "./feactures/common/components/card/Card";
+import { Layout } from "./feactures/common/components/layout/Layout";
 import "./App.css";
-import FiltroBusqueda from "./feactures/components/FiltroBusqueda";
-import CardMenu from "./feactures/components/CardMenu";
+import FiltroBusqueda from "./feactures/common/components/filtrobusqueda/FiltroBusqueda";
+import CardMenu from "./feactures/common/components/cardmenu/CardMenu";
 import { getCars } from "./feactures/services/carService";
+import { LoginForm } from "./feactures/auth/components/LoginForm/LoginForm";
 
 
 const App = () => {
@@ -60,6 +61,7 @@ const App = () => {
 
       <footer>
         <p>&copy; 2024 Tu Página Dinámica. Todos los derechos reservados.</p>
+        <LoginForm/>
       </footer>
     </>
   );

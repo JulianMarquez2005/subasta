@@ -1,10 +1,8 @@
-import { colorsClasses } from '@/feactures/common/commonClasses'
-import {
-  getButtonClasses,
-  getSpinnerSizeFromButtonSize
-} from '@/feactures/common/components/ui/Button/classes'
-import { Spinner } from '@/feactures/common/components/ui/Spinner'
-import { ButtonSizes, ButtonVariants, Colors, Rounded } from '@/feactures/common/types/styles'
+import { colorsClasses } from '../../../../../feactures/common/commonClases'
+import {getButtonClasses, getSpinnerSizeFromButtonSize} from '.././../../../../feactures/common/components/ui/Button/classes'
+import { Spinner } from '../../../../../feactures/common/components/ui/Spinner/Spinner'
+import { ButtonSizes, ButtonVariants, Colors, Rounded } from '../../../../../feactures/common/types/styles'
+import React from 'react'
 
 export interface ButtonProps
   extends React.DetailedHTMLProps<

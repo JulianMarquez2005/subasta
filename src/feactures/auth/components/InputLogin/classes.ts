@@ -6,4 +6,4 @@ const readOnlyInputClasses = 'read-only:text-gray-600 read-only:bg-gray-100'
 export const inputClasses = `${baseInputClasses} ${disabledInputClasses} ${readOnlyInputClasses}`
 
 
-//Este código usa clases para definir la apariencia y el comportamiento de los elementos de entrada (inputs) en un formulario o interfaz de usuario
+//Este código usa clases para definir la apariencia y el comportamiento de los elementos de entrada (inputs) en un formulario o interfaz de usuario.
